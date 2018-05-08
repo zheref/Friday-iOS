@@ -15,6 +15,7 @@
 		9DC25E9220A1C9FC00142B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC25E9020A1C9FC00142B11 /* LaunchScreen.storyboard */; };
 		9DC25E9D20A1C9FC00142B11 /* FridayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25E9C20A1C9FC00142B11 /* FridayTests.swift */; };
 		9DC25EA820A1C9FC00142B11 /* FridayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EA720A1C9FC00142B11 /* FridayUITests.swift */; };
+		9DC25EB820A1CB0600142B11 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC25EB720A1CB0600142B11 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		9DC25EA320A1C9FC00142B11 /* FridayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC25EA720A1C9FC00142B11 /* FridayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridayUITests.swift; sourceTree = "<group>"; };
 		9DC25EA920A1C9FC00142B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC25EB520A1CA6C00142B11 /* Friday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Friday.entitlements; sourceTree = "<group>"; };
+		9DC25EB720A1CB0600142B11 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC25EB820A1CB0600142B11 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				9DC25E9B20A1C9FC00142B11 /* FridayTests */,
 				9DC25EA620A1C9FC00142B11 /* FridayUITests */,
 				9DC25E8320A1C9FA00142B11 /* Products */,
+				9DC25EB620A1CB0600142B11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,7 @@
 		9DC25E8420A1C9FA00142B11 /* Friday */ = {
 			isa = PBXGroup;
 			children = (
+				9DC25EB520A1CA6C00142B11 /* Friday.entitlements */,
 				9DC25E8520A1C9FA00142B11 /* AppDelegate.swift */,
 				9DC25E8720A1C9FA00142B11 /* FirstViewController.swift */,
 				9DC25E8920A1C9FA00142B11 /* SecondViewController.swift */,
@@ -126,6 +132,14 @@
 				9DC25EA920A1C9FC00142B11 /* Info.plist */,
 			);
 			path = FridayUITests;
+			sourceTree = "<group>";
+		};
+		9DC25EB620A1CB0600142B11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC25EB720A1CB0600142B11 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +210,14 @@
 				TargetAttributes = {
 					9DC25E8120A1C9FA00142B11 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					9DC25E9720A1C9FC00142B11 = {
 						CreatedOnToolsVersion = 9.3;
@@ -434,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Friday/Friday.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = Friday/Info.plist;
@@ -452,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Friday/Friday.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = Friday/Info.plist;
