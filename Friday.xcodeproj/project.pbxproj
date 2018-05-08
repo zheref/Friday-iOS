@@ -16,6 +16,30 @@
 		9DC25E9D20A1C9FC00142B11 /* FridayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25E9C20A1C9FC00142B11 /* FridayTests.swift */; };
 		9DC25EA820A1C9FC00142B11 /* FridayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EA720A1C9FC00142B11 /* FridayUITests.swift */; };
 		9DC25EB820A1CB0600142B11 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC25EB720A1CB0600142B11 /* CloudKit.framework */; };
+		9DC25EBE20A1D08900142B11 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EBD20A1D08900142B11 /* Money.swift */; };
+		9DC25EBF20A1D08900142B11 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EBD20A1D08900142B11 /* Money.swift */; };
+		9DC25EC120A1D09E00142B11 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC020A1D09E00142B11 /* Currency.swift */; };
+		9DC25EC220A1D09E00142B11 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC020A1D09E00142B11 /* Currency.swift */; };
+		9DC25EC520A1DA2700142B11 /* MoneySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC420A1DA2700142B11 /* MoneySource.swift */; };
+		9DC25EC620A1DA2700142B11 /* MoneySource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC420A1DA2700142B11 /* MoneySource.swift */; };
+		9DC25EC820A1DA5D00142B11 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC720A1DA5D00142B11 /* Transaction.swift */; };
+		9DC25EC920A1DA5D00142B11 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EC720A1DA5D00142B11 /* Transaction.swift */; };
+		9DC25ECB20A1DB6400142B11 /* MoneyHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ECA20A1DB6400142B11 /* MoneyHolder.swift */; };
+		9DC25ECC20A1DB6400142B11 /* MoneyHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ECA20A1DB6400142B11 /* MoneyHolder.swift */; };
+		9DC25ECE20A1DB8500142B11 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ECD20A1DB8500142B11 /* Vendor.swift */; };
+		9DC25ECF20A1DB8500142B11 /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ECD20A1DB8500142B11 /* Vendor.swift */; };
+		9DC25ED120A1DC6000142B11 /* TransactionConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED020A1DC6000142B11 /* TransactionConcept.swift */; };
+		9DC25ED220A1DC6000142B11 /* TransactionConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED020A1DC6000142B11 /* TransactionConcept.swift */; };
+		9DC25ED420A1DE4500142B11 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED320A1DE4500142B11 /* PaymentMethod.swift */; };
+		9DC25ED520A1DE4500142B11 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED320A1DE4500142B11 /* PaymentMethod.swift */; };
+		9DC25ED720A1E1C400142B11 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED620A1E1C400142B11 /* Card.swift */; };
+		9DC25ED820A1E1C400142B11 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25ED620A1E1C400142B11 /* Card.swift */; };
+		9DC25EE020A1E5AD00142B11 /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EDF20A1E5AD00142B11 /* TransactionCategory.swift */; };
+		9DC25EE120A1E5AD00142B11 /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EDF20A1E5AD00142B11 /* TransactionCategory.swift */; };
+		9DC25EE320A1E94A00142B11 /* CKManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EE220A1E94A00142B11 /* CKManagedObject.swift */; };
+		9DC25EE420A1E94A00142B11 /* CKManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EE220A1E94A00142B11 /* CKManagedObject.swift */; };
+		9DC25EEA20A2016900142B11 /* FunctionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EE920A2016900142B11 /* FunctionTypes.swift */; };
+		9DC25EEB20A2016900142B11 /* FunctionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC25EE920A2016900142B11 /* FunctionTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +76,18 @@
 		9DC25EA920A1C9FC00142B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC25EB520A1CA6C00142B11 /* Friday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Friday.entitlements; sourceTree = "<group>"; };
 		9DC25EB720A1CB0600142B11 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		9DC25EBD20A1D08900142B11 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		9DC25EC020A1D09E00142B11 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		9DC25EC420A1DA2700142B11 /* MoneySource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySource.swift; sourceTree = "<group>"; };
+		9DC25EC720A1DA5D00142B11 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9DC25ECA20A1DB6400142B11 /* MoneyHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHolder.swift; sourceTree = "<group>"; };
+		9DC25ECD20A1DB8500142B11 /* Vendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor.swift; sourceTree = "<group>"; };
+		9DC25ED020A1DC6000142B11 /* TransactionConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionConcept.swift; sourceTree = "<group>"; };
+		9DC25ED320A1DE4500142B11 /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		9DC25ED620A1E1C400142B11 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9DC25EDF20A1E5AD00142B11 /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		9DC25EE220A1E94A00142B11 /* CKManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKManagedObject.swift; sourceTree = "<group>"; };
+		9DC25EE920A2016900142B11 /* FunctionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +148,8 @@
 				9DC25E8E20A1C9FC00142B11 /* Assets.xcassets */,
 				9DC25E9020A1C9FC00142B11 /* LaunchScreen.storyboard */,
 				9DC25E9320A1C9FC00142B11 /* Info.plist */,
+				9DC25EE920A2016900142B11 /* FunctionTypes.swift */,
+				9DC25EB920A1CFBC00142B11 /* Models */,
 			);
 			path = Friday;
 			sourceTree = "<group>";
@@ -140,6 +178,24 @@
 				9DC25EB720A1CB0600142B11 /* CloudKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC25EB920A1CFBC00142B11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9DC25EE220A1E94A00142B11 /* CKManagedObject.swift */,
+				9DC25EBD20A1D08900142B11 /* Money.swift */,
+				9DC25EC020A1D09E00142B11 /* Currency.swift */,
+				9DC25ECA20A1DB6400142B11 /* MoneyHolder.swift */,
+				9DC25ECD20A1DB8500142B11 /* Vendor.swift */,
+				9DC25EC420A1DA2700142B11 /* MoneySource.swift */,
+				9DC25ED620A1E1C400142B11 /* Card.swift */,
+				9DC25EC720A1DA5D00142B11 /* Transaction.swift */,
+				9DC25ED320A1DE4500142B11 /* PaymentMethod.swift */,
+				9DC25ED020A1DC6000142B11 /* TransactionConcept.swift */,
+				9DC25EDF20A1E5AD00142B11 /* TransactionCategory.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC25EC120A1D09E00142B11 /* Currency.swift in Sources */,
+				9DC25ECB20A1DB6400142B11 /* MoneyHolder.swift in Sources */,
+				9DC25EE320A1E94A00142B11 /* CKManagedObject.swift in Sources */,
 				9DC25E8A20A1C9FA00142B11 /* SecondViewController.swift in Sources */,
+				9DC25EC820A1DA5D00142B11 /* Transaction.swift in Sources */,
+				9DC25EBE20A1D08900142B11 /* Money.swift in Sources */,
+				9DC25EC520A1DA2700142B11 /* MoneySource.swift in Sources */,
+				9DC25ECE20A1DB8500142B11 /* Vendor.swift in Sources */,
+				9DC25EEA20A2016900142B11 /* FunctionTypes.swift in Sources */,
+				9DC25ED720A1E1C400142B11 /* Card.swift in Sources */,
 				9DC25E8620A1C9FA00142B11 /* AppDelegate.swift in Sources */,
+				9DC25ED120A1DC6000142B11 /* TransactionConcept.swift in Sources */,
+				9DC25ED420A1DE4500142B11 /* PaymentMethod.swift in Sources */,
 				9DC25E8820A1C9FA00142B11 /* FirstViewController.swift in Sources */,
+				9DC25EE020A1E5AD00142B11 /* TransactionCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +359,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DC25ED220A1DC6000142B11 /* TransactionConcept.swift in Sources */,
+				9DC25EC220A1D09E00142B11 /* Currency.swift in Sources */,
+				9DC25ECC20A1DB6400142B11 /* MoneyHolder.swift in Sources */,
+				9DC25EE120A1E5AD00142B11 /* TransactionCategory.swift in Sources */,
+				9DC25EBF20A1D08900142B11 /* Money.swift in Sources */,
+				9DC25EC920A1DA5D00142B11 /* Transaction.swift in Sources */,
+				9DC25EE420A1E94A00142B11 /* CKManagedObject.swift in Sources */,
 				9DC25E9D20A1C9FC00142B11 /* FridayTests.swift in Sources */,
+				9DC25ECF20A1DB8500142B11 /* Vendor.swift in Sources */,
+				9DC25ED820A1E1C400142B11 /* Card.swift in Sources */,
+				9DC25EEB20A2016900142B11 /* FunctionTypes.swift in Sources */,
+				9DC25ED520A1DE4500142B11 /* PaymentMethod.swift in Sources */,
+				9DC25EC620A1DA2700142B11 /* MoneySource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
